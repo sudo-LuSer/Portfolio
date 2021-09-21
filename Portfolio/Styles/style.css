@@ -1,0 +1,237 @@
+:root {
+
+	--red: #fe3e57;
+	
+	--light-red: #e94d62;
+	
+	--white: #fffffe;
+	
+	--territory-text: rgb(214, 217, 224);
+	
+	--secondary-head: rgb(215, 224, 236);
+	
+	--primary-background: #17315a;
+	
+	--card-background: rgb(35, 64, 107);
+	
+	--secondary-background: rgb(13, 34, 68);
+	
+	--secondary-button: #294572;
+	
+	--dark-shadow: #051020;
+	
+	--footer: #131d2c;
+	
+	--montserrat: "Montserrat",sans-serif;
+	
+	--open-sans: "Open Sans",sans-serif;
+
+}
+
+*{
+
+	text-decoration: none;
+
+}
+
+body{
+
+	font-family: var(--open-sans);
+
+	background: var(--secondary-background);
+
+}
+
+li{
+
+	display: inline;
+
+	margin: 10px;
+
+	position: relative;
+
+	top: 17.5px;
+
+	color: var(--white);
+
+	transition: all 1s ease;
+
+}
+
+li:hover{
+
+	color: var(--light-red); 
+
+}
+
+nav{
+
+	position: absolute;
+
+	position: fixed;
+
+	box-shadow: 2px 4px 8px var(--dark-shadow);
+
+	top: 0%;
+
+	left: 0%;
+
+	height: 80px;
+
+	width: 100%;
+
+}
+
+.Hi{
+
+	color: var(--light-red);
+
+	font-size: 170%;
+
+}
+
+.heroImg{
+
+	float: right;
+
+}
+
+main{
+
+	position: absolute;
+
+	left: 10%;
+
+	top: 20%;
+}
+
+.I_m{
+
+	color: var(--white);
+
+	font-size: 150%;
+
+}
+
+.name{
+
+	font-size: 175%;
+
+	color: var(--white);
+
+}
+
+.ContactBtn{
+
+	background: var(--primary-background);
+
+	height: 70px;
+
+	width: 175px;
+
+	border: none;
+
+	transition: all 1.5s ease;
+
+	font-size: 75%;
+
+	color: var(--white);
+
+}
+
+.ContactBtn:hover{
+
+	box-shadow: 2px 4px 8px var(--dark-shadow);
+
+	color: var(--light-red);
+
+}
+
+.menubtn{
+
+	visibility: hidden;
+
+}
+
+@media (max-width: 850px){
+
+	ul{
+
+		visibility: hidden;
+
+	}
+
+	nav{
+
+		box-shadow: none;
+
+	}
+
+	.menubtn{
+
+		visibility: visible;
+
+		position: absolute;
+
+		left: 0px;
+
+		top: 0px;
+
+	}
+
+	.menubtn:hover{
+
+		background: var(--primary-background);
+
+	}
+
+	.heroImg{
+
+		margin-top: 20px;
+
+		height: 250px;
+
+		width: 300px;
+
+		position: absolute;
+
+		left: 50%;
+
+		transform: translate(-50%,0%);
+
+		margin-top: -10px;
+	}
+
+	main{
+
+		top: 40%;
+
+	}
+
+	.I_m{
+
+		font-size: 130% !important;
+
+	}
+
+	.ContactBtn{
+
+		height: 45px;
+
+		width: 250px;
+
+	}
+
+	.name{
+
+		font-size: 155%;
+
+	}
+
+	.Hi{
+
+		font-size: 150%;
+
+	}
+
+}
