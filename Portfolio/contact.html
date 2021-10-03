@@ -7,7 +7,7 @@
 
 		<link rel="icon" type="image/x-icon" href="Images/programmer-icon-14.png">
 
-		<title>Nasroallah Hitar|Home Section</title>
+		<title>Nasroallah Hitar|Contact Section</title>
 
 		<meta charset="utf-8">
 
@@ -27,7 +27,7 @@
 
 		<br>
 
-		<a href="index.html" class="NAV"><article style="opacity: 1 !important;">
+		<a href="index.html" class="NAV"><article>
 
 			Home
 
@@ -45,7 +45,7 @@
 
 		</article></a>
 
-		<a href="contact.html" class="NAV"><article>
+		<a href="contact.html" class="NAV"><article style="opacity: 1 !important;">
 			
 			Contact
 
@@ -61,13 +61,13 @@
 
 				<center>
 				
-					<a href="index.html"><li style="border-bottom: 5px var(--red) solid;">Home</li></a>
+					<a href="index.html"><li>Home</li></a>
 
 					<a href="about.html"><li>About</li></a>
 
 					<a href="portfolio.html"><li>Portfolio</li></a>
 
-					<a href="contact.html"><li>Contact</li></a>
+					<a href="contact.html"><li style="border-bottom: 5px var(--red) solid;">Contact</li></a>
 
 				</center>
 
@@ -83,30 +83,72 @@
 
 		<br>
 
-		<img src="Images/hero.svg" height="550px" width="450px" class="heroImg">
+		<br>
 
 		<br>
 
-		<main class="main_">
+		<article class="titleCnt">Contact Me</article>
 
-			<h1><b class="Hi" id="Hi">Hello !</b></h1>
+		<br>
 
-			<br>
+		<button class="emlbtn" id="emailtn" tabindex="1">My E-Mail</button>
 
-			<h2 class="name">I'm <b style="color: var(--light-red);">N</b>asr-allah <b style="color: var(--light-red);">H</b>itar</h2>
-
-			<br>
-
-			<h3 class="I_m"><b style="color: var(--light-red);">I</b>'m a <b id="im">Mathematical student</b><h3>
+		<form method="get" action="thank%20you.html">
 
 			<br>
 
-			<a href="contact.html"><button class="ContactBtn">Contact Me</button></a>
+			<label for="Name" class="cntlabel" tabindex="2">Name:
+				
+				<br>
+						
+				<input type="text" name="Name" placeholder="Name" required>
 
-		</main>
+			</label>
+
+			<br>
+
+			<label for="Email" class="cntlabel" tabindex="3">Email:
+				
+				<br>
+						
+				<input type="email" name="Email" placeholder="Email" required>
+
+			</label>
+
+			<br>
+
+			<label for="Message" class="cntlabel" tabindex="3">Message:
+				
+				<br>
+						
+				<textarea placeholder="Your Message here" required tabindex="4">Your Message here
+
+				</textarea>
+
+			</label>
+
+			<br>
+			<br>
+
+			<button type="Submit" class="sub" tabindex="5">Submit</button>
+
+		</form>
+
+		<br>
+
+		<button class="wtsp" id="wtsp" tabindex="6">My Whatssup Number</button>
 
 	</body>
 
 	<script type="text/javascript" src="Scripts/script.js"></script>
 
 </html>
+
+<!--
+
+<?php
+
+	if(isset($_GET['Name']))
+
+
+?>
