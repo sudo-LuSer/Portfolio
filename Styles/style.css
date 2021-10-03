@@ -1,0 +1,705 @@
+:root {
+
+	--red: #fe3e57;
+	
+	--light-red: #e94d62;
+	
+	--white: #fffffe;
+	
+	--territory-text: rgb(214, 217, 224);
+	
+	--secondary-head: rgb(215, 224, 236);
+	
+	--primary-background: #17315a;
+	
+	--secondary-background: rgb(13, 34, 68);
+	
+	--secondary-button: #294572;
+	
+	--footer: #131d2c;
+	
+	--montserrat: "Montserrat",sans-serif;
+	
+	--open-sans: "Open Sans",sans-serif;
+
+	--dark-shadow:rgba(0,0,0,0.23);
+
+}
+
+#Load{
+
+	position: absolute;
+
+	left: 50%;
+
+	top: 50%;
+
+	transform: translate(-50%,-50%);
+
+}
+
+*{
+
+	color: var(--white);
+
+	text-decoration: none;
+
+	z-index: 1;
+
+}
+
+body{
+
+	font-family: var(--open-sans);
+
+	background: var(--secondary-background);
+
+}
+
+li{
+
+	display: inline;
+
+	margin: 10px;
+
+	position: relative;
+
+	top: 17.5px;
+
+	transition: all 0.5s ease;
+
+}
+
+li:hover{
+	
+	color: var(--light-red); 
+
+}
+
+#computerNav{
+
+	position: fixed;
+
+}
+
+nav{
+
+	position: absolute;
+
+	background: var(--secondary-background);
+
+	box-shadow: 0 10px 20px var(--dark-shadow);
+
+	top: 0%;
+
+	left: 0%;
+
+	height: 80px;
+
+	width: 100%;
+
+	z-index: 10;
+
+}
+
+.letstalk{
+
+	background: var(--primary-background);
+
+	border: 1px var(--red) solid; 
+
+	color: var(--light-red);
+
+	height: 45px;
+
+	width: 125px;
+
+	float: right;
+
+	position: relative;
+
+	top: -15.5px;
+
+	left: -20px;
+
+	transition: all 1.5s ease;
+
+	font-size: 100%;
+
+	text-align: center;
+
+}
+
+.letstalk:hover{
+
+	opacity: 100%;
+
+	background: var(--red);
+
+	color: var(--primary-background);
+
+}
+
+.Hi{
+
+	color: var(--light-red);
+
+	font-size: 170%;
+
+}
+
+.heroImg{
+
+	float: right;
+
+}
+
+main{
+
+	position: absolute;
+
+	left: 10%;
+
+	top: 20%;
+
+}
+
+label{
+
+	color: var(--red);
+
+}
+
+small{
+
+	color: var(--territory-text);
+
+}
+
+.I_m{
+
+	font-size: 150%;
+
+}
+
+.name{
+
+	font-size: 175%;
+
+}
+
+.ContactBtn{
+
+	background: var(--primary-background);
+
+	height: 70px;
+
+	width: 175px;
+
+	border: none;
+
+	transition: all 1.5s ease;
+
+	font-size: 100%;
+
+	transition: all 2s ease;
+
+}
+
+.ContactBtn:hover{
+
+	position: relative;
+
+	top: -3px;
+
+	box-shadow: 0 10px 20px var(--dark-shadow);
+
+	color: var(--red);
+
+}
+
+.menubtn{
+
+	visibility: hidden;
+
+}
+
+.me{
+
+	max-height: 70%;
+
+	border-radius: 25px;
+
+}
+
+.aboutTitle{
+
+	font-size: 4vw;
+
+}
+
+.About_me{
+
+	font-size: 3vw;
+
+}
+
+label{
+
+	font-size: 2.5vw;
+
+}
+
+.main__{
+
+	position: absolute;
+
+	top: 15%;
+
+}
+
+.PortTitle{
+
+	color: var(--red);
+
+	font-size: 5vw;
+
+	position: relative;
+
+	top: 50px;
+
+	font-family: var(--montserrat);
+
+}
+
+#PhoneNav{
+
+	margin-top: 10px;
+
+	visibility: hidden;
+
+}
+
+article{
+
+	display: block;
+
+	background: var(--primary-background);
+
+	height: 80px;
+
+	width: 100%;
+
+	font-size: 4vw;
+
+	opacity: 0.5;
+
+	transition: all 1.5s ease;
+
+	border-bottom:3.5px var(--red) solid;
+
+	margin-top: 5px;
+
+}
+
+article:hover{
+
+	opacity: 0.75;
+
+	position: relative;
+
+	left: 10px;
+
+}
+
+article:hover .NAV{
+
+	color: var(--territory-text);
+
+}
+
+.cntlabel{
+
+	font-size: 3vw;
+
+}
+
+.emlbtn,.wtsp{
+
+	background: var(--secondary-background);
+
+	color:var(--territory-text);
+
+	border:1px var(--red) solid;
+
+	transition: all 2s ease;
+
+	height: 80px;
+
+	width: 300px;
+
+	font-size: 120%;
+
+	border-radius: 20px;
+
+}
+
+.emlbtn:hover,.wtsp:hover{
+
+	background: var(--light-red);
+
+	color: var(--secondary-background);
+
+}
+
+input,textarea{
+
+	height: 50px;
+
+	width: 300px;
+
+	border-radius: 10px;
+
+	border:none;
+
+	background: var(--primary-background);
+
+	font-size: 50%;
+
+	margin-top: 2.5px;
+
+	color: var(--territory-text);
+
+}
+
+textarea{
+
+	height: 100px;
+
+	font-size: 100%;
+
+}
+
+.sub{
+
+	background: var(--red);
+
+	color: var(--territory-text);
+
+	height: 55px;
+
+	width: 150px;
+
+	margin: 10px;
+
+	border:none;
+
+	font-size: 120%;
+
+	border-radius: 10px;
+
+	transition: all 2s ease;
+
+}
+
+.sub:hover{
+
+	filter: drop-shadow(2px 4px 8px black);
+
+	position: relative;
+
+	top: -5px;
+
+}
+
+
+.DivA,.DivB,.DivC{
+
+	display: flex;
+
+}
+
+.childDivA,.childDivB,.childDivC{
+
+	background: var(--primary-background);
+
+	height:200px;
+
+	width: 250px;
+
+	margin: 2.5px;
+
+	transition: all 0.3s ease;
+
+}
+
+.childDivA:hover,.childDivB:hover,.childDivC:hover{
+
+	background: var(--red);
+
+	box-shadow: 2px 4px 8px black;
+
+}
+
+.childDivA:hover .divimg{
+
+	animation-name: UPIMAGE;
+
+	animation-duration: 3s;
+
+	animation-timing-function: ease;
+
+	animation-iteration-count: infinite;
+
+}
+
+.childDivB:hover .divimg{
+
+	animation-name: UPIMAGE;
+
+	animation-duration: 3s;
+
+	animation-timing-function: ease;
+
+	animation-iteration-count: infinite;
+
+}
+
+.childDivC:hover .divimg{
+
+	animation-name: UPIMAGE;
+
+	animation-duration: 3s;
+
+	animation-timing-function: ease;
+
+	animation-iteration-count: infinite;
+
+}
+
+.Childs{
+
+	position: absolute;
+
+	left: 50%;
+
+	transform: translate(-50%,0%);
+
+	color: var(--territory-text);
+
+}
+
+@keyframes UPIMAGE{
+
+	100%{
+
+		height:0px;
+		
+	}
+
+}
+
+.thanksimg{
+
+	position: absolute;
+
+	left: 50%;top: 50%;
+
+	transform: translate(-50%,-10%);
+}
+
+.thanks{
+
+	font-size: 7vw;
+
+	color: var(--red);
+
+}
+
+.sent{
+
+	font-size: 140%;
+
+	color: var(--red);
+
+}
+
+@media (max-width:950px){
+
+	.thanksimg{
+
+
+		transform: translate(-50%,-35%);
+
+	}
+
+	input{
+
+		font-size: 100%;
+
+	}
+
+	.computerNav{
+
+		display: none;
+
+	}
+
+	nav{
+
+		box-shadow: none;
+
+		z-index: -10;
+
+	}
+
+	#menuXbtn{
+
+		visibility: visible;
+
+		z-index: 100;
+
+		position: fixed;
+
+	}
+
+	#Xbtn{
+
+		margin-top: -10px;
+
+		z-index: 1;
+
+	}
+
+	.menubtn,#Xbtn{
+
+		position: absolute;
+
+		left: 0px;
+
+		top: 0px;
+
+		background: var(--primary-background);
+
+		transition: all 1.5s ease;
+
+		height: 50px;
+
+		width: 50px;
+
+		border:none;
+
+	}
+
+	.menubtn:hover,#Xbtn:hover{
+
+		background: var(--red);
+
+	}
+
+	.heroImg{
+
+		margin-top: 20px;
+
+		height: 250px;
+
+		width: 300px;
+
+		position: absolute;
+
+		left: 50%;
+
+		transform: translate(-50%,0%);
+
+		margin-top: -10px;
+	}
+
+	.main_{
+
+		top: 40%;
+
+	}
+
+	.I_m{
+
+		font-size: 130% !important;
+
+		font-weight: 300;
+
+	}
+
+	.ContactBtn{
+
+		font-size: 75%;
+
+		height: 45px;
+
+		width: 250px;
+
+	}
+
+	.name{
+
+		font-size: 155%;
+
+		font-weight: 300;
+
+	}
+
+	.Hi{
+
+		font-size: 150%;
+
+		font-weight: 300;
+
+	}
+
+	.main__{
+
+		top: 10%;
+
+	}
+
+	.PortTitle{
+
+		top: 0px;
+
+	}
+
+	article{
+
+		font-size: 7vw;
+
+	}
+
+	.DivA,.DivB,.DivC{
+
+		display: block;
+
+	}
+	
+}
+
+@media (min-width: 1000px){
+
+	.cntlabel{
+
+		font-size: 2.2vw;
+
+	}
+
+	.titleCnt{
+
+		font-size: 2.5vw;
+
+		margin-bottom: 10px;
+
+	}
+
+	textarea{
+
+		font-size: 50%;
+
+	}
+
+}
