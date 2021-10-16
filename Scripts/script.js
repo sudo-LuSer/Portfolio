@@ -47,6 +47,8 @@ document.getElementById('menuXbtn').onclick=function(){
 
 	document.getElementById('Xbtn').style.visibility="visibile !important";
 
+	window.scrollTo(0, 0);
+
 }
 
 document.getElementById('Xbtn').onclick=function(){

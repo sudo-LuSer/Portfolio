@@ -278,6 +278,8 @@ label{
 
 	visibility: hidden;
 
+	z-index: 500;
+
 }
 
 article{
@@ -299,6 +301,8 @@ article{
 	border-bottom:3.5px var(--red) solid;
 
 	margin-top: 5px;
+
+	z-index: 500;
 
 }
 
@@ -493,7 +497,7 @@ textarea{
 
 	100%{
 
-		height:0px;
+		height:200px;
 		
 	}
 
